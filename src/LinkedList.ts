@@ -17,10 +17,10 @@ export class LinkedList {
             node = node.next
         }
 
-        return this.length
+        return length
     }
 
-    add(data: number) {
+    add(data: number): void {
         const node = new Node(data)
 
         if (!this.head) {
@@ -69,7 +69,7 @@ export class LinkedList {
 
         let node: Node | null = this.head
         while (node) {
-            console.log(node.next)
+            console.log(node.data)
             node = node.next
         }
     }
