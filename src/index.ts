@@ -10,6 +10,11 @@ const numberCollection = new NumbersCollection(arrInt)
 numberCollection.sort()
 console.log(numberCollection)
 
+const charCollection = new CharCollection(arrStr)
+
+charCollection.sort()
+console.log(charCollection)
+
 const linkedList = new LinkedList()
 
 linkedList.add(100)
